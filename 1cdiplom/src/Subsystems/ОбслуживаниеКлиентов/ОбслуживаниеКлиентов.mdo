@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14534c37-d551-48c2-94c5-2b06c02c4817">
+  <name>ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ТокенУправленияТелеграмботом</content>
+  <content>Constant.ИдентификаторГруппыДляОповещения</content>
+  <content>Catalog.УведомленияТелеграмботу</content>
+  <content>DataProcessor.МассовоеСозданиеАктов</content>
+  <content>Report.ВыработкаСпециалистов</content>
+  <content>Report.АнализВыставленныхАктов</content>
+</mdclass:Subsystem>

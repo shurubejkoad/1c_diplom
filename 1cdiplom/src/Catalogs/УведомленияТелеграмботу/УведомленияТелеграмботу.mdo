@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a593a9a2-b34a-4af3-b58b-48a9d42de4e0">
+  <producedTypes>
+    <objectType typeId="9c8e61de-5828-4c1c-b2d4-b67595b5a1b7" valueTypeId="9836ce93-57fd-449f-a304-dbb34c3bffc7"/>
+    <refType typeId="95c1b93d-0282-46aa-b92b-eceff46ea584" valueTypeId="fab247c3-8439-4441-96e1-b4c06cea1d4b"/>
+    <selectionType typeId="48b57c5f-6a63-4b76-815f-a77087ad0f64" valueTypeId="22acbe54-b1aa-45e4-9ea2-fbf039ffc1cb"/>
+    <listType typeId="57525988-84f0-4abb-9150-08eb165568c8" valueTypeId="164a2de0-7f5b-4ad0-b78c-6cdc81a4feaf"/>
+    <managerType typeId="065ced8b-4f0e-47f9-b0d5-318bb58c4cbf" valueTypeId="bcc3b7ca-b4a8-4a56-82da-1dc92d5066ac"/>
+  </producedTypes>
+  <name>УведомленияТелеграмботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УведомленияТелеграмботу.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УведомленияТелеграмботу.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="70e74432-84f5-4e7b-af8e-96006d0c3f66">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

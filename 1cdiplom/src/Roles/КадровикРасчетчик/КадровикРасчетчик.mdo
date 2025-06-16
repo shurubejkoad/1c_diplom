@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9bdf598-f35c-431d-8877-2a041deffe8b">
+  <name>КадровикРасчетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровик расчетчик</value>
+  </synonym>
+</mdclass:Role>
